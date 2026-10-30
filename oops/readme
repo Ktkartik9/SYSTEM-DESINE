@@ -1,0 +1,14 @@
+### 1. Class and Object
+- A class is a blueprint for creating objects.
+- An object is an instance of a class.
+- Created a `Student` class with `name`, `age`, and `gender` attributes.
+- Created an object `s1` using the Student class.
+
+### 2. Constructor (`__init__`)
+- Used the `__init__()` method to initialize object attributes.
+- Learned how to pass values while creating an object.
+
+### 3. Instance Methods
+- Created methods inside a class.
+- `display()` prints student information.
+- `get_age()` returns the student's age.
