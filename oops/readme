@@ -85,5 +85,33 @@
 - Private methods are intended for internal use within the class.
 
 
+## 14. Abstraction
 
+Abstraction is an Object-Oriented Programming (OOP) concept that hides implementation details and shows only the essential functionality to the user.
+
+- Focuses on what an object does rather than how it does it.
+- Helps create a common structure for related classes.
+- Improves code organization and maintainability.
+
+## 15. Abstract Base Class (ABC)
+
+- Imported `ABC` from the `abc` module.
+- Created an abstract class named `Shape`.
+- Inherited the `ABC` class to make `Shape` an abstract base class.
+- An abstract class cannot be instantiated directly.
+
+## 16. Abstract Methods
+
+- Used the `@abstractmethod` decorator.
+- Created two abstract methods:
+  - `area()`
+  - `perimeter()`
+- Abstract methods define a common structure that child classes must implement.
+- Used `pass` because the actual implementation is provided by the child class.
+
+## 17. Concrete Class
+
+- Created a `Rectangle` class that inherits from the `Shape` class.
+- Implemented the `area()` and `perimeter()` methods.
+- Initialized `length` and `breadth` using the constructor (`__init__`).
 
