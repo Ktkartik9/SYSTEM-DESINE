@@ -22,7 +22,3 @@
 - Used `super().__init__(name, age)` to call the parent class constructor.
 - Avoided repeating the initialization code in the child class.
 
-### 6. Method Overriding
-- Overrode the `move()` method inside the Dog class.
-- The parent class prints `"I am moving"`.
-- The child class prints `"I am running on 4 legs"`.
