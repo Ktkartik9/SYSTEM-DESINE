@@ -1,24 +1,54 @@
-### 1. Class and Object
-- A class is a blueprint for creating objects.
-- An object is an instance of a class.
-- Created a `Student` class with `name`, `age`, and `gender` attributes.
-- Created an object `s1` using the Student class.
+## 1. Class and Object
 
-### 2. Constructor (`__init__`)
-- Used the `__init__()` method to initialize object attributes.
+- A **Class** is a blueprint for creating objects.
+- An **Object** is an instance of a class.
+- Created a `Student` class with `name`, `age`, and `gender` attributes.
+- Created an object `s1` using the `Student` class.
+
+## 2. Constructor (`__init__`)
+
+- Learned about the `__init__()` constructor method.
+- Used the constructor to initialize object attributes.
 - Learned how to pass values while creating an object.
 
-### 3. Instance Methods
+## 3. Instance Methods
+
 - Created methods inside a class.
-- `display()` prints student information.
-- `get_age()` returns the student's age.
+- Implemented the `display()` method to print student information.
+- Implemented the `get_age()` method to return the student's age.
 
-### 4. Inheritance
+## 4. Inheritance
+
+- Learned how inheritance allows one class to acquire properties and methods from another class.
 - Created an `Animal` parent class.
-- Created a `Dog` child class that inherits from `Animal`.
-- The Dog class can access the parent class's attributes and methods.
+- Created a `Dog` child class that inherits from the `Animal` class.
+- Accessed parent class attributes and methods through the child class.
 
-### 5. super() Function
+## 5. `super()` Function
+
+- Learned how to use the `super()` function.
 - Used `super().__init__(name, age)` to call the parent class constructor.
-- Avoided repeating the initialization code in the child class.
+- Reused parent class initialization code without repeating it in the child class.
 
+## 6. Polymorphism
+
+**Polymorphism means "Many Forms".**
+
+- Allows the same method name to behave differently depending on the object.
+- Different classes can have methods with the same name but different implementations.
+- Helps achieve flexibility and code reusability.
+
+## 7. Method Overriding
+
+- Learned how method overriding works in Python.
+- Created a `move()` method in the `Animal` parent class.
+- Overrode the `move()` method in the `Dog` child class.
+- When `dog.move()` is called, Python executes the `Dog` class implementation instead of the parent implementation.
+
+## 8. Using `super()` with Inheritance
+
+- Used `super().__init__(name, age)` to call the parent class constructor.
+- Reused parent class attributes in the child class.
+- Avoided unnecessary code duplication.
+
+---
