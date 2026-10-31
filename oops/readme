@@ -52,3 +52,38 @@
 - Avoided unnecessary code duplication.
 
 ---
+
+## 9. Encapsulation
+
+- Encapsulation is an Object-Oriented Programming (OOP) concept that combines data and methods into a single class.
+
+- It also restricts direct access to certain attributes and methods to protect data from unwanted modifications.
+
+## 10. Private Attributes
+
+- Created a `Bank` class.
+- Used `__balance` as a private attribute.
+- Private attributes cannot be accessed directly using their original name outside the class.
+- Used Python's name mangling mechanism to restrict direct access.
+
+## 11. Getter Method
+
+- Created a `get_balance()` method.
+- Used it to access and display the private balance.
+- Provides controlled access to private data.
+
+## 12. Setter Method
+
+- Created a `set_balance()` method.
+- Used it to update the private balance.
+- Allows modification of private attributes through a class method.
+
+## 13. Private Method
+
+- Created a private method `__isServerLive()`.
+- Used it to check whether the bank server is running.
+- Private methods are intended for internal use within the class.
+
+
+
+
