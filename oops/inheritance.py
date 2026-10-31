@@ -3,7 +3,7 @@ class Animal:
         print("Animal INIT")
         self.name = name
         self.age = age
-        
+
     def eat(self):
         print("I am eating")
 
@@ -23,12 +23,15 @@ class Dog(Animal):
         print("I am barking")
 
     def display(self):
-        print(f"Name is {self.name} and age is {self.age}")
-
-    def move(self):
-        print("I am running on 4 legs")
+        print(f"Name: {self.name}")
+        print(f"Age: {self.age}")
+        print(f"Breed: {self.breed}")
 
 
 dog = Dog("Cheery", 5, "Indie")
-dog.move()
 
+dog.display()
+dog.eat()
+dog.sleep()
+dog.move()
+dog.bark()
